@@ -6,6 +6,7 @@ import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ProductInfo from '../src/components/ProductInfo';
 import RecommendedVideo from '../src/components/RecommendedVideo';
+import ProductPhoto from '../src/components/ProductPhoto';
 
 const Fruit = (props) => {
 
@@ -31,7 +32,7 @@ const Fruit = (props) => {
                         id: "video",
                         text: "推薦影片",
                         component: (
-                            <div style={{ paddingTop: 70, minHeight: "80vh" }}>
+                            <div style={{ paddingTop: 70, minHeight: "20vh" }}>
                                 <RecommendedVideo
                                     videoList={page.videoList}
                                 />
@@ -42,9 +43,9 @@ const Fruit = (props) => {
                         id: "photo",
                         text: "產品照片",
                         component: <div style={{ paddingTop: 70, height: "150vh" }}>
-                            <div>
-                                tab no 3 - some text
-                            </div>
+                            <ProductPhoto
+                                imageList={page.imageList}
+                            />
                         </div>
                     },
                     {
