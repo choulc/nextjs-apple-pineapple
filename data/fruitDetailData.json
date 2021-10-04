@@ -10,8 +10,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/2",
@@ -23,8 +46,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，風味最佳哦。",
                 "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2020/09/piclogo_10_1.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2020/09/piclogo_10_1.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/3",
@@ -36,8 +82,31 @@
                 "preservation": "請立即冷藏保鮮，此品種建議以紙包裹放冰箱後，於2周內享用，新鮮度與風味最佳!",
                 "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/pic--1_2.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/pic--1_2.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/4",
@@ -49,8 +118,31 @@
                 "preservation": "請立即冷藏保鮮，此品種建議在一周內享用完畢最美味喔。",
                 "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/pic--1_2.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/pic--1_2.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/5",
@@ -62,8 +154,31 @@
                 "preservation": "「惠」蘋果放常溫、冷藏均可，但放冰箱可保存較長時間，建議收到後於一周內儘快吃完最美味。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2020/10/FV-219pic_crisphoney01-1_1.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2020/10/FV-219pic_crisphoney01-1_1.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/11",
@@ -75,8 +190,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/12",
@@ -88,8 +226,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/13",
@@ -101,8 +262,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/14",
@@ -114,8 +298,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/15",
@@ -127,8 +334,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         },
         {
             "path": "/16",
@@ -140,8 +370,31 @@
                 "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
                 "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
             },
-            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
-            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+            "videoList": [
+                {
+                    "title": "好吃好吃",
+                    "description": "這是敘述一二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃2",
+                    "description": "這是敘述二二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                },
+                {
+                    "title": "好吃好吃3",
+                    "description": "這是敘述三二三四五六七八九十",
+                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                }
+            ],
+            "iamge": [
+                "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg",
+                "https://dummyimage.com/600x400/000/fff",
+                "https://dummyimage.com/600x400/000/fff"
+            ]
         }
     ]
 }

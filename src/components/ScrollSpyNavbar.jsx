@@ -12,6 +12,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import Box from '@mui/material/Box';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import ProductTitle from './ProductTitle'
 
 const tabHeight = 69;
 const StyledTabs = withStyles({
@@ -26,16 +27,20 @@ const StyledTab = withStyles(theme => ({
 
 const useStyles = makeStyles(theme => ({
     container: {
-        marginTop: 69,
+        // marginTop: 69,
     },
     tab: {
         '&.MuiTab-root': {
-            marginLeft: 8,
-            minWidth: 120,
-            border: '1px solid black',
+            height: 48,
+            borderRadius: 24,
+            marginLeft: 16,
+            minWidth: 140,
+            fontSize: '1.2rem',
+            color: '#333',
+            background: theme.palette.primary.light,
             '&.Mui-selected': {
-                color: 'red',
-                background: '#fff',
+                color: '#111',
+                background: theme.palette.secondary.light,
             }
         }
     }
@@ -107,17 +112,18 @@ function ElevationScroll(props) {
     });
 }
 
-function ScrollSpyTabs(props) {
-    const { tabsInScroll } = props;
+function ScrollSpyNavbar(props) {
+    const { tabsInScroll, title } = props;
     const [activeState, setActiveState] = useState(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
     const itemsClientRef = useRef([]);
     const clickedRef = useRef(false);
     const unsetClickedRef = useRef(null);
+    const classes = useStyles();
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
     let itemsServer = tabsInScroll.map(tab => {
-        const hash = textToHash(decodeURI(tab.text));
+        const hash = textToHash(tab.id);
         return {
             icon: tab.icon || "",
             text: tab.text,
@@ -198,8 +204,6 @@ function ScrollSpyTabs(props) {
 
     };
 
-    const classes = useStyles();
-
     const handleMobileMenuClose = () => {
         setMobileMoreAnchorEl(null);
     };
@@ -246,7 +250,7 @@ function ScrollSpyTabs(props) {
                     <AppBar>
                         <Toolbar>
                             <div>hello</div>
-                            <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+                            <Box sx={{ display: { xs: 'none', md: 'flex' }, width: '100%', justifyContent: 'center' }}>
                                 <StyledTabs value={activeState ? activeState : itemsServer[0].hash}>
                                     {itemsServer.map(item2 => (
                                         <StyledTab
@@ -259,7 +263,7 @@ function ScrollSpyTabs(props) {
                                     ))}
                                 </StyledTabs>
                             </Box>
-                            <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+                            <Box sx={{ display: { xs: 'flex', md: 'none' }, width: '100%', justifyContent: 'flex-end' }}>
                                 <IconButton
                                     size="large"
                                     aria-label="show more"
@@ -274,21 +278,19 @@ function ScrollSpyTabs(props) {
                         </Toolbar>
                     </AppBar>
                 </ElevationScroll>
+                <Toolbar id="back-to-top-anchor" />
                 {renderMobileMenu}
             </Box>
             <div className={classes.container}>
-                <div>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ab commodi tempora odit explicabo eius. Ipsum magni esse mollitia tempore eos, explicabo animi aut velit deserunt molestias qui? Amet, ipsum?
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ab commodi tempora odit explicabo eius. Ipsum magni esse mollitia tempore eos, explicabo animi aut velit deserunt molestias qui? Amet, ipsum?
-                </div>
+                <ProductTitle title={title} />
                 {itemsServer.map(item1 => (
                     <article id={item1.hash} key={item1.text}>
                         {item1.component}
                     </article>
                 ))}
             </div>
-        </div>
+        </div >
     );
 }
 
-export default ScrollSpyTabs;
+export default ScrollSpyNavbar;

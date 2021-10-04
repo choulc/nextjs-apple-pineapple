@@ -1,6 +1,11 @@
 import React from 'react';
 import dataDetail from '../data/fruitDetailData.json'
-import ScrollSpyTabs from '../src/components/ScrollSpyTabs';
+import ScrollSpyNavbar from '../src/components/ScrollSpyNavbar';
+import ScrollTop from '../src/components/ScrollTop';
+import Fab from '@mui/material/Fab';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import ProductInfo from '../src/components/ProductInfo';
+import RecommendedVideo from '../src/components/RecommendedVideo';
 
 const Fruit = (props) => {
 
@@ -8,38 +13,42 @@ const Fruit = (props) => {
 
     return (
         <div>
-            {typeof window === 'object' && <ScrollSpyTabs
+            {typeof window === 'object' && <ScrollSpyNavbar
+                title={page.title}
                 tabsInScroll={[
                     {
+                        id: "introduction",
                         text: "產品介紹",
                         component: (
-                            <div style={{ paddingTop: 70, height: "80vh" }}>
-                                <div>
-                                    tab no 1 - some text
-                                </div>
+                            <div style={{ paddingTop: 70, minHeight: "30vh" }}>
+                                <ProductInfo
+                                    productInfo={page.productInfo}
+                                />
                             </div>
                         )
                     },
                     {
-                        text: "影片介紹",
+                        id: "video",
+                        text: "推薦影片",
                         component: (
-                            <div style={{ paddingTop: 70, height: "80vh" }}>
-                                <div>
-
-                                    tab no 2 - some text
-                                </div>
+                            <div style={{ paddingTop: 70, minHeight: "80vh" }}>
+                                <RecommendedVideo
+                                    videoList={page.videoList}
+                                />
                             </div>
                         )
                     },
                     {
-                        text: "產品圖片",
+                        id: "photo",
+                        text: "產品照片",
                         component: <div style={{ paddingTop: 70, height: "150vh" }}>
                             <div>
                                 tab no 3 - some text
-                                </div>
+                            </div>
                         </div>
                     },
                     {
+                        id: "Tab no. 4",
                         text: "Tab no. 4",
                         component: <div style={{ paddingTop: 70, height: "100vh" }}>
                             <div>
@@ -48,6 +57,7 @@ const Fruit = (props) => {
                         </div>
                     },
                     {
+                        id: "Tab no. 5",
                         text: "Tab no. 5",
                         component: <div style={{ paddingTop: 70, height: "100vh" }}>
                             <div>
@@ -57,6 +67,11 @@ const Fruit = (props) => {
                     }
                 ]}
             />}
+            {typeof window === 'object' && <ScrollTop>
+                <Fab color="secondary" size="small" aria-label="scroll back to top">
+                    <KeyboardArrowUpIcon />
+                </Fab>
+            </ScrollTop>}
         </div>
     );
 }
