@@ -1,0 +1,147 @@
+{
+    "pages": [
+        {
+            "path": "/1",
+            "title": "秋之香 本土蘋果「秋香」",
+            "productInfo": {
+                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+        },
+        {
+            "path": "/2",
+            "title": "青森甜蜜 津輕蘋果",
+            "productInfo": {
+                "spec": "3公斤[約15-40顆(每顆2.0兩以上)]",
+                "origin": "台中和平",
+                "validation": "直接跟農夫買團隊親訪認可，輔以381項農藥殘留檢驗 報告。<直接跟農夫買>目前團隊針對較難無農藥管理之作物，如芒果、柿子、蓮霧、蘋果、釋迦、荔枝、水蜜桃等，其減藥認可標準為「農藥殘留低於四項，且每項低於衛福部公告標準之三分之一」，更多說明請參考我們的理念。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，風味最佳哦。",
+                "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2020/09/piclogo_10_1.jpg"
+        },
+        {
+            "path": "/3",
+            "title": "秋之青 本土青蘋果「金冠」",
+            "productInfo": {
+                "spec": "3公斤",
+                "origin": "台中和平",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，此品種建議以紙包裹放冰箱後，於2周內享用，新鮮度與風味最佳!",
+                "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/pic--1_2.jpg"
+        },
+        {
+            "path": "/4",
+            "title": "秋之蜜 本土蘋果「青龍」",
+            "productInfo": {
+                "spec": "3公斤",
+                "origin": "台中和平",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。寶李阿姨家的蘋果皆採相同管理方式，故提供單一品種檢驗報告，若您不介意再購買。",
+                "preservation": "請立即冷藏保鮮，此品種建議在一周內享用完畢最美味喔。",
+                "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/pic--1_2.jpg"
+        },
+        {
+            "path": "/5",
+            "title": "堅持草生 本土蜜蘋果「惠」",
+            "productInfo": {
+                "spec": "22顆裝[每顆約2.3~2.9兩] /20顆裝[每顆約3.0~3.7兩] /18顆裝 [每顆約3.8~4.4兩] /15顆裝 [每顆約4.5~5.2兩] /12顆裝 [每顆約5.3~6.0兩] /10顆裝 [每顆約6.1~6.8兩] /9顆裝[每顆約6.9~7.6兩] /8顆裝[每顆約7.7~8.5兩]",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "「惠」蘋果放常溫、冷藏均可，但放冰箱可保存較長時間，建議收到後於一周內儘快吃完最美味。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2020/10/FV-219pic_crisphoney01-1_1.jpg"
+        },
+        {
+            "path": "/11",
+            "title": "秋之香 本土蘋果「秋香」",
+            "productInfo": {
+                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+        },
+        {
+            "path": "/12",
+            "title": "秋之香 本土蘋果「秋香」",
+            "productInfo": {
+                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+        },
+        {
+            "path": "/13",
+            "title": "秋之香 本土蘋果「秋香」",
+            "productInfo": {
+                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+        },
+        {
+            "path": "/14",
+            "title": "秋之香 本土蘋果「秋香」",
+            "productInfo": {
+                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+        },
+        {
+            "path": "/15",
+            "title": "秋之香 本土蘋果「秋香」",
+            "productInfo": {
+                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+        },
+        {
+            "path": "/16",
+            "title": "秋之香 本土蘋果「秋香」",
+            "productInfo": {
+                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "origin": "台中梨山",
+                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
+                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+            },
+            "video": "https://www.youtube.com/embed/Ukmkd6l7TFA",
+            "iamge": "https://www.buydirectlyfromfarmers.tw/media/uploads/images/products/2021/08/fv246-pic-07.jpg"
+        }
+    ]
+}
