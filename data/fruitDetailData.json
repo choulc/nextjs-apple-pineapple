@@ -14,27 +14,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -51,27 +116,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -88,27 +218,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -125,27 +320,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -162,27 +422,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -199,27 +524,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -236,27 +626,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -273,27 +728,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -310,27 +830,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -347,27 +932,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         },
         {
@@ -384,27 +1034,92 @@
                 {
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/000/fff",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/aaa/ddd",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 },
                 {
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://dummyimage.com/400x300/111/aaa",
+                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
                     "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/800x400/b33db3/fff",
-                "https://dummyimage.com/800x400/293475/fff",
-                "https://dummyimage.com/800x400/239158/fff",
-                "https://dummyimage.com/800x400/c4a52a/fff"
+                "https://dummyimage.com/1000x600/b33db3/fff",
+                "https://dummyimage.com/1000x600/293475/fff",
+                "https://dummyimage.com/1000x600/239158/fff",
+                "https://dummyimage.com/1000x600/c4a52a/fff"
+            ],
+            "resourceList": [
+                {
+                    "id": 1,
+                    "name": "資源1",
+                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "description": "這是敘述一二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源2",
+                    "image": "https://dummyimage.com/250x350/293475/fff",
+                    "description": "這是敘述二二三四五",
+                    "link": "www.google.com"
+                },
+                {
+                    "id": 2,
+                    "name": "資源3",
+                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com"
+                }
+            ],
+            "linkList": [
+                {
+                    "id": 1,
+                    "name": "APP 1",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 2,
+                    "name": "APP 2",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 3,
+                    "name": "YouTube頻道",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 4,
+                    "name": "FaceBook粉絲團",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                },
+                {
+                    "id": 5,
+                    "name": "Line小幫手",
+                    "image": "https://dummyimage.com/70x70/293475/fff",
+                    "description": "這是敘述三二三四五",
+                    "link": "www.google.com",
+                    "buttonText": "立即前往"
+                }
             ]
         }
     ]

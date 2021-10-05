@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { Container } from '@mui/material'
 import { makeStyles } from '@mui/styles'
 import Slider from 'react-slick';
@@ -74,7 +74,6 @@ const RecommendedVideo = (props) => {
     const { videoList } = props
 
     const classes = useStyles();
-    const slideRef = useRef()
     const [open, setOpen] = useState(false);
 
     const settings = {
@@ -122,14 +121,14 @@ const RecommendedVideo = (props) => {
                     推薦影片
                 </h2>
                 <div className={classes.sliderContainer}>
-                    <Slider {...settings} ref={slideRef}>
+                    <Slider {...settings}>
                         {videoList.map((videoObject, index) => (
                             <React.Fragment key={index}>
                                 <div className={classes.cardContainer} onClick={handleCardClicked}>
                                     <Card className={classes.card}>
                                         <CardMedia
                                             component="img"
-                                            height="180"
+                                            height="200"
                                             image={videoObject.image}
                                             alt="green iguana"
                                         />

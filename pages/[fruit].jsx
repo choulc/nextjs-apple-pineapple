@@ -7,6 +7,8 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ProductInfo from '../src/components/ProductInfo';
 import RecommendedVideo from '../src/components/RecommendedVideo';
 import ProductPhoto from '../src/components/ProductPhoto';
+import ProductResource from '../src/components/ProductResource';
+import ProductLink from '../src/components/ProductLink';
 
 const Fruit = (props) => {
 
@@ -17,6 +19,15 @@ const Fruit = (props) => {
             {typeof window === 'object' && <ScrollSpyNavbar
                 title={page.title}
                 tabsInScroll={[
+                    {
+                        id: "photo",
+                        text: "產品照片",
+                        component: <div style={{ paddingTop: 70, minHeight: "30vh" }}>
+                            <ProductPhoto
+                                imageList={page.imageList}
+                            />
+                        </div>
+                    },
                     {
                         id: "introduction",
                         text: "產品介紹",
@@ -40,31 +51,26 @@ const Fruit = (props) => {
                         )
                     },
                     {
-                        id: "photo",
-                        text: "產品照片",
-                        component: <div style={{ paddingTop: 70, height: "150vh" }}>
-                            <ProductPhoto
-                                imageList={page.imageList}
-                            />
-                        </div>
+                        id: "resource",
+                        text: "產品資源",
+                        component: (
+                            <div style={{ paddingTop: 70, minHeight: "55vh" }}>
+                                <ProductResource
+                                    resourceList={page.resourceList}
+                                />
+                            </div>
+                        )
                     },
                     {
-                        id: "Tab no. 4",
-                        text: "Tab no. 4",
-                        component: <div style={{ paddingTop: 70, height: "100vh" }}>
-                            <div>
-                                tab no 4 - some text
+                        id: "link",
+                        text: "相關連結",
+                        component: (
+                            <div style={{ paddingTop: 70, height: "100vh" }}>
+                                <ProductLink
+                                    linkList={page.linkList}
+                                />
                             </div>
-                        </div>
-                    },
-                    {
-                        id: "Tab no. 5",
-                        text: "Tab no. 5",
-                        component: <div style={{ paddingTop: 70, height: "100vh" }}>
-                            <div>
-                                tab no 4 - some text
-                            </div>
-                        </div>
+                        )
                     }
                 ]}
             />}

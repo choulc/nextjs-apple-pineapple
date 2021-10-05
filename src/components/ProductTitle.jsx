@@ -20,12 +20,15 @@ const ProductTitle = (props) => {
             <CssBaseline />
             <Container maxWidth="lg">
                 <Box sx={{
-                    height: '10vh',
+                    height: 50,
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
                     fontSize: '2rem',
                     fontWeight: 700,
+                    paddingTop: {
+                        xs: 5, md: 0
+                    }
                 }}>
                     <div className={classes.title}>
                         {title}
