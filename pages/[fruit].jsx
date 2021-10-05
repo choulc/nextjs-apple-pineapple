@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import dataDetail from '../data/fruitDetailData.json'
 import ScrollSpyNavbar from '../src/components/ScrollSpyNavbar';
 import ScrollTop from '../src/components/ScrollTop';
@@ -9,14 +9,19 @@ import RecommendedVideo from '../src/components/RecommendedVideo';
 import ProductPhoto from '../src/components/ProductPhoto';
 import ProductResource from '../src/components/ProductResource';
 import ProductLink from '../src/components/ProductLink';
+import Footer from '../src/components/Footer';
 
 const Fruit = (props) => {
 
     const { page } = props
+    const [mounted, setMounted] = useState(false);
+    useEffect(() => {
+        setMounted(true)
+    }, [])
 
     return (
         <div>
-            {typeof window === 'object' && <ScrollSpyNavbar
+            {mounted && <ScrollSpyNavbar
                 title={page.title}
                 tabsInScroll={[
                     {
@@ -65,7 +70,7 @@ const Fruit = (props) => {
                         id: "link",
                         text: "相關連結",
                         component: (
-                            <div style={{ paddingTop: 70, height: "100vh" }}>
+                            <div style={{ paddingTop: 70, minHeight: "100vh" }}>
                                 <ProductLink
                                     linkList={page.linkList}
                                 />
@@ -74,11 +79,12 @@ const Fruit = (props) => {
                     }
                 ]}
             />}
-            {typeof window === 'object' && <ScrollTop>
+            {mounted && <ScrollTop>
                 <Fab color="secondary" size="small" aria-label="scroll back to top">
                     <KeyboardArrowUpIcon />
                 </Fab>
             </ScrollTop>}
+            <Footer />
         </div>
     );
 }
