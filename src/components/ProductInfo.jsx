@@ -1,25 +1,24 @@
 import React from 'react'
 import { Container } from '@mui/material'
-import { makeStyles } from '@mui/styles'
+import styled from '@emotion/styled'
+import theme from '../theme'
 
-const useStyles = makeStyles(theme => ({
-    title: {
-        textAlign: 'center',
-        color: theme.palette.primary.dark
-    },
-}));
+const StyledTitle = styled.h2`
+    text-align: center;
+    color: ${theme.palette.primary.dark};
+`
+
 
 const ProductInfo = (props) => {
 
     const { productInfo } = props
-    const classes = useStyles();
 
     return (
         <React.Fragment>
             <Container maxWidth="lg">
-                <h2 className={classes.title}>
+                <StyledTitle>
                     產品介紹
-                </h2>
+                </StyledTitle>
                 <div>
                     {`規格：${productInfo.spec}`}
                 </div>

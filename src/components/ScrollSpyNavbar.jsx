@@ -116,22 +116,38 @@ function ScrollSpyNavbar(props) {
     const { tabsInScroll, title } = props;
     const [activeState, setActiveState] = useState(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
+    const [itemsServer, setItemsServer] = useState([])
     const itemsClientRef = useRef([]);
     const clickedRef = useRef(false);
     const unsetClickedRef = useRef(null);
     const classes = useStyles();
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
-    let itemsServer = tabsInScroll.map(tab => {
-        const hash = textToHash(tab.id);
-        return {
-            icon: tab.icon || "",
-            text: tab.text,
-            component: tab.component,
-            hash: hash,
-            node: document.getElementById(hash)
-        };
-    });
+    // let itemsServer = tabsInScroll.map(tab => {
+    //     const hash = textToHash(tab.id);
+    //     return {
+    //         icon: tab.icon || "",
+    //         text: tab.text,
+    //         component: tab.component,
+    //         hash: hash,
+    //         node: document.getElementById(hash)
+    //     };
+    // });
+
+    useEffect(() => {
+        let temp = tabsInScroll.map(tab => {
+            const hash = textToHash(tab.id);
+            console.log(document.getElementById(hash))
+            return {
+                icon: tab.icon || "",
+                text: tab.text,
+                hash: hash,
+                node: document.getElementById(hash)
+            };
+        });
+
+        setItemsServer(temp)
+    }, [])
 
     useEffect(() => {
         itemsClientRef.current = itemsServer;
@@ -148,7 +164,6 @@ function ScrollSpyNavbar(props) {
 
         // set default if activeState is null
         if (activeState === null) setActiveState(itemsServer[0].hash);
-
 
         let active;
         for (let i = itemsClientRef.current.length - 1; i >= 0; i -= 1) {
@@ -251,7 +266,7 @@ function ScrollSpyNavbar(props) {
                         <Toolbar>
                             <div>hello</div>
                             <Box sx={{ display: { xs: 'none', md: 'flex' }, width: '100%', justifyContent: 'center' }}>
-                                <StyledTabs value={activeState ? activeState : itemsServer[0].hash}>
+                                <StyledTabs value={activeState ? activeState : itemsServer[0]?.hash}>
                                     {itemsServer.map(item2 => (
                                         <StyledTab
                                             key={item2.hash}
@@ -283,11 +298,6 @@ function ScrollSpyNavbar(props) {
             </Box>
             <div className={classes.container}>
                 <ProductTitle title={title} />
-                {itemsServer.map(item1 => (
-                    <article id={item1.hash} key={item1.text}>
-                        {item1.component}
-                    </article>
-                ))}
             </div>
         </div >
     );

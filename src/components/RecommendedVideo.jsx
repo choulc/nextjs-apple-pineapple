@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Container } from '@mui/material'
-import { makeStyles } from '@mui/styles'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,68 +11,65 @@ import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box'
+import styled from '@emotion/styled'
+import theme from '../theme'
 
-const useStyles = makeStyles(theme => ({
-    title: {
-        textAlign: 'center',
-        color: theme.palette.primary.dark
-    },
-    sliderContainer: {
-        margin: '0 auto',
-        maxWidth: '100%',
-        width: 360,
-        height: 300,
-        [theme.breakpoints.up('sm')]: {
-            width: 560,
-            // marginTop: '10vh',
-        },
-        [theme.breakpoints.up('md')]: {
-            width: 900,
-            // marginTop: '15vh',
-        },
-        [theme.breakpoints.up('lg')]: {
-            width: 1200,
-            // marginTop: '10vh',
-            // marginBottom: '10vh',
-        },
-    },
-    cardContainer: {
-        width: 400,
-        maxWidth: '100%',
-        padding: 10,
-        display: 'flex',
-        justifyContent: 'center',
-    },
-    card: {
-        width: '100%',
-        margin: '0 auto',
-        cursor: 'pointer',
-    },
-    iframeContainer: {
-        borderRadius: 0,
-        background: '#000',
-        width: 336,
-        height: 189,
-        [theme.breakpoints.up('sm')]: {
-            width: 576,
-            height: 324,
-        },
-        [theme.breakpoints.up('md')]: {
-            width: 880,
-            height: 495,
-        },
-        [theme.breakpoints.up('lg')]: {
-            width: 1200,
-            height: 675,
-        },
+const StyledTitle = styled.h2`
+    text-align: center;
+    color: ${theme.palette.primary.dark};
+`
+const StyledSliderContainer = styled.div`
+    margin: 0 auto;
+    max-width: 100%;
+    width: 360px;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media (min-width: 600px ){
+        width: 560px;
     }
-}));
+    @media (min-width: 900px ){
+        width: 900px;
+    }
+    @media (min-width: 1200px ){
+        width: 1200px;
+    }
+`
+const StyledCardContainer = styled.div`
+    width: 400px;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+`
+const StyledCard = styled(Card)`
+width: 100%;
+margin: 0 auto;
+cursor: pointer;
+`
+const StyledIframeContainer = styled.div`
+    border-radius: 0;
+    background: #000;
+    width: 336px;
+    height: 189px;
+    @media (min-width: 600px ){
+        width: 576px;
+        height: 324px;
+    }
+    @media (min-width: 900px ){
+        width: 880px;
+        height: 495px;
+    }
+    @media (min-width: 1200px ){
+        width: 1200px;
+        height: 675px;
+    }
+`
 
 const RecommendedVideo = (props) => {
 
     const { videoList } = props
 
-    const classes = useStyles();
     const [open, setOpen] = useState(0);
 
     const settings = {
@@ -117,15 +113,15 @@ const RecommendedVideo = (props) => {
     return (
         <React.Fragment>
             <Container maxWidth="lg">
-                <h2 className={classes.title}>
+                <StyledTitle>
                     推薦影片
-                </h2>
-                <div className={classes.sliderContainer}>
+                </StyledTitle>
+                <StyledSliderContainer>
                     <Slider {...settings}>
                         {videoList.map((videoObject, index) => (
                             <React.Fragment key={index}>
-                                <div className={classes.cardContainer} onClick={() => { handleCardClicked(videoObject.id) }}>
-                                    <Card className={classes.card}>
+                                <StyledCardContainer onClick={() => { handleCardClicked(videoObject.id) }}>
+                                    <StyledCard>
                                         <CardMedia
                                             component="img"
                                             height="200"
@@ -140,8 +136,8 @@ const RecommendedVideo = (props) => {
                                                 {videoObject.description}
                                             </Typography>
                                         </CardContent>
-                                    </Card>
-                                </div>
+                                    </StyledCard>
+                                </StyledCardContainer>
                                 <Modal
                                     aria-labelledby={`transition-modal-${videoObject.id}`}
                                     aria-describedby="transition-modal-description"
@@ -163,7 +159,7 @@ const RecommendedVideo = (props) => {
                                             left: '50%',
                                             transform: 'translate(-50%, -50%)',
                                         }}>
-                                            <div className={classes.iframeContainer}>
+                                            <StyledIframeContainer>
                                                 <iframe
                                                     width="100%"
                                                     height="100%"
@@ -173,14 +169,14 @@ const RecommendedVideo = (props) => {
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                     allowFullScreen
                                                 ></iframe>
-                                            </div>
+                                            </StyledIframeContainer>
                                         </Box>
                                     </Fade>
                                 </Modal>
                             </React.Fragment>
                         ))}
                     </Slider>
-                </div>
+                </StyledSliderContainer>
             </Container>
         </React.Fragment >
     );

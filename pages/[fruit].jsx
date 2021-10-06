@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import dataDetail from '../data/fruitDetailData.json'
 import ScrollSpyNavbar from '../src/components/ScrollSpyNavbar';
 import ScrollTop from '../src/components/ScrollTop';
@@ -14,71 +14,59 @@ import Footer from '../src/components/Footer';
 const Fruit = (props) => {
 
     const { page } = props
-    const [mounted, setMounted] = useState(false);
-    useEffect(() => {
-        setMounted(true)
-    }, [])
 
     return (
         <div>
-            {mounted && <ScrollSpyNavbar
+            <ScrollSpyNavbar
                 title={page.title}
                 tabsInScroll={[
                     {
                         id: "photo",
                         text: "產品照片",
-                        component: <div style={{ paddingTop: 70, minHeight: "30vh" }}>
-                            <ProductPhoto
-                                imageList={page.imageList}
-                            />
-                        </div>
                     },
                     {
                         id: "introduction",
                         text: "產品介紹",
-                        component: (
-                            <div style={{ paddingTop: 70, minHeight: "30vh" }}>
-                                <ProductInfo
-                                    productInfo={page.productInfo}
-                                />
-                            </div>
-                        )
                     },
                     {
                         id: "video",
                         text: "推薦影片",
-                        component: (
-                            <div style={{ paddingTop: 70, minHeight: "20vh" }}>
-                                <RecommendedVideo
-                                    videoList={page.videoList}
-                                />
-                            </div>
-                        )
                     },
                     {
                         id: "resource",
                         text: "產品資源",
-                        component: (
-                            <div style={{ paddingTop: 70, minHeight: "55vh" }}>
-                                <ProductResource
-                                    resourceList={page.resourceList}
-                                />
-                            </div>
-                        )
                     },
                     {
                         id: "link",
                         text: "相關連結",
-                        component: (
-                            <div style={{ paddingTop: 70, minHeight: "100vh" }}>
-                                <ProductLink
-                                    linkList={page.linkList}
-                                />
-                            </div>
-                        )
                     }
                 ]}
-            />}
+            />
+            <div id="photo">
+                <div style={{ paddingTop: 70, minHeight: "30vh" }}>
+                    <ProductPhoto imageList={page.imageList} />
+                </div>
+            </div>
+            <div id="introduction">
+                <div style={{ paddingTop: 70, minHeight: "30vh" }}>
+                    <ProductInfo productInfo={page.productInfo} />
+                </div>
+            </div>
+            <div id="video">
+                <div style={{ paddingTop: 70, minHeight: "20vh" }}>
+                    <RecommendedVideo videoList={page.videoList} />
+                </div>
+            </div>
+            <div id="resource">
+                <div style={{ paddingTop: 70, minHeight: "55vh" }}>
+                    <ProductResource resourceList={page.resourceList} />
+                </div>
+            </div>
+            <div id="link">
+                <div style={{ paddingTop: 70, minHeight: "100vh" }}>
+                    <ProductLink linkList={page.linkList} />
+                </div>
+            </div>
             <ScrollTop>
                 <Fab color="secondary" size="small" aria-label="scroll back to top">
                     <KeyboardArrowUpIcon />
