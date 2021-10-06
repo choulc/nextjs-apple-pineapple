@@ -74,7 +74,7 @@ const RecommendedVideo = (props) => {
     const { videoList } = props
 
     const classes = useStyles();
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(0);
 
     const settings = {
         dots: true,
@@ -110,8 +110,8 @@ const RecommendedVideo = (props) => {
         ]
     };
 
-    const handleCardClicked = () => {
-        setOpen(true);
+    const handleCardClicked = (videoId) => {
+        setOpen(videoId);
     }
 
     return (
@@ -124,7 +124,7 @@ const RecommendedVideo = (props) => {
                     <Slider {...settings}>
                         {videoList.map((videoObject, index) => (
                             <React.Fragment key={index}>
-                                <div className={classes.cardContainer} onClick={handleCardClicked}>
+                                <div className={classes.cardContainer} onClick={() => { handleCardClicked(videoObject.id) }}>
                                     <Card className={classes.card}>
                                         <CardMedia
                                             component="img"
@@ -143,10 +143,10 @@ const RecommendedVideo = (props) => {
                                     </Card>
                                 </div>
                                 <Modal
-                                    aria-labelledby="transition-modal-title"
+                                    aria-labelledby={`transition-modal-${videoObject.id}`}
                                     aria-describedby="transition-modal-description"
-                                    open={open}
-                                    onClose={() => { setOpen(false) }}
+                                    open={open == videoObject.id}
+                                    onClose={() => { setOpen(0) }}
                                     closeAfterTransition
                                     BackdropComponent={Backdrop}
                                     BackdropProps={{
@@ -156,7 +156,7 @@ const RecommendedVideo = (props) => {
                                         }
                                     }}
                                 >
-                                    <Fade in={open}>
+                                    <Fade in={open == videoObject.id}>
                                         <Box sx={{
                                             position: 'absolute',
                                             top: '50%',

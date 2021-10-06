@@ -1,30 +1,27 @@
 import React from 'react';
-import { makeStyles } from '@mui/styles';
+import styled from '@emotion/styled'
+import theme from '../theme'
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        height: 80,
-        backgroundColor: theme.palette.primary.main,
-        color: '#fff',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 13,
-        [theme.breakpoints.up('sm')]: {
-            fontSize: 14,
-        }
-    },
-}))
+const StyledFooter = styled.div`
+height: 80px;
+background-color: ${theme.palette.primary.main};
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 13px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+`;
 
 const Footer = () => {
 
-    const classes = useStyles()
-
     return (
         <React.Fragment>
-            <div className={classes.root}>
+            <StyledFooter>
                 <span>{`Copyright © ${new Date().getFullYear()} Choulc`}</span>
-            </div>
+            </StyledFooter>
         </React.Fragment>
     );
 }

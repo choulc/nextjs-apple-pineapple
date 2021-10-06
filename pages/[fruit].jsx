@@ -79,11 +79,11 @@ const Fruit = (props) => {
                     }
                 ]}
             />}
-            {mounted && <ScrollTop>
+            <ScrollTop>
                 <Fab color="secondary" size="small" aria-label="scroll back to top">
                     <KeyboardArrowUpIcon />
                 </Fab>
-            </ScrollTop>}
+            </ScrollTop>
             <Footer />
         </div>
     );
