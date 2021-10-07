@@ -1,67 +1,63 @@
 import React from 'react';
 import { Container } from '@mui/material'
-import { makeStyles } from '@mui/styles'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import styled from '@emotion/styled'
+import theme from '../theme'
 
-const useStyles = makeStyles(theme => ({
-    title: {
-        textAlign: 'center',
-        color: theme.palette.primary.dark
-    },
-    sliderContainer: {
-        margin: '0 auto',
-        maxWidth: '100%',
-        width: 360,
-        [theme.breakpoints.up('sm')]: {
-            width: 560,
-            // marginTop: '10vh',
-        },
-        [theme.breakpoints.up('md')]: {
-            width: 900,
-            // marginTop: '15vh',
-        },
-        [theme.breakpoints.up('lg')]: {
-            width: 1200,
-            // marginTop: '10vh',
-            // marginBottom: '10vh',
-        },
-    },
-    cardContainer: {
-        display: 'flex',
-        justifyContent: 'center',
-    },
-    card: {
-        cursor: 'pointer',
-    },
-    cardImage: {
-        '& img': {
-            borderRadius: 15,
-            width: '100%',
-            height: 'auto',
-        }
-    },
-    cardTitle: {
-        display: 'flex',
-        justifyContent: 'center',
-        marginTop: 16,
-        fontSize: '1.4rem',
-        fontWeight: 700,
-    },
-    cardDescription: {
-        display: 'flex',
-        justifyContent: 'center',
-        marginTop: 4,
-        fontSize: '1.2rem',
-    },
-}));
+const StyledTitle = styled.h2`
+    text-align: center;
+    color: ${theme.palette.primary.dark};
+`
+const StyledSliderContainer = styled.div`
+    margin: 0 auto;
+    max-width: 100%;
+    width: 360px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media (min-width: 600px ){
+        width: 560px;
+    }
+    @media (min-width: 900px ){
+        width: 900px;
+    }
+    @media (min-width: 1200px ){
+        width: 1200px;
+    }
+`
+const StyledCardContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`
+const StyledCard = styled.div`
+    cursor: pointer;
+`
+const StyledCardImage = styled.div`
+    img {
+        border-radius: 15px;
+        width: 100%;
+        height: auto;
+    }
+`
+const StyledCardTitle = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 1.4rem;
+    font-weight: 700;
+`
+const StyledCardDescription = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    font-size: 1.2rem;
+`
+
 
 const ProductResource = (props) => {
 
     const { resourceList } = props
-
-    const classes = useStyles();
 
     const settings = {
         dots: true,
@@ -100,30 +96,30 @@ const ProductResource = (props) => {
     return (
         <React.Fragment>
             <Container maxWidth="lg">
-                <h2 className={classes.title}>
+                <StyledTitle>
                     產品資源
-                </h2>
-                <div className={classes.sliderContainer}>
+                </StyledTitle>
+                <StyledSliderContainer>
                     <Slider {...settings}>
                         {resourceList.map((resource => (
                             <React.Fragment key={resource.id}>
-                                <div className={classes.cardContainer}>
-                                    <div className={classes.card}>
-                                        <div className={classes.cardImage}>
+                                <StyledCardContainer>
+                                    <StyledCard>
+                                        <StyledCardImage>
                                             <img src={resource.image} alt="resource image" />
-                                        </div>
-                                        <div className={classes.cardTitle}>
+                                        </StyledCardImage>
+                                        <StyledCardTitle>
                                             <span>{resource.name}</span>
-                                        </div>
-                                        <div className={classes.cardDescription}>
+                                        </StyledCardTitle>
+                                        <StyledCardDescription>
                                             <span>{resource.description}</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                        </StyledCardDescription>
+                                    </StyledCard>
+                                </StyledCardContainer>
                             </React.Fragment>
                         )))}
                     </Slider>
-                </div>
+                </StyledSliderContainer>
             </Container>
 
         </React.Fragment>
