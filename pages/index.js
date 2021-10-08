@@ -63,10 +63,22 @@ export default function Home() {
 
           <MenuContainer>
             <Menu>
-              <Button variant="outlined" sx={{ minWidth: 200 }}>apple</Button>
+              <Button variant="outlined" sx={{ minWidth: 200 }}>
+                <Link href="/1">
+                  <a>
+                    apple
+                  </a>
+                </Link>
+              </Button>
             </Menu>
             <Menu>
-              <Button variant="outlined" sx={{ minWidth: 200 }}>pineapple</Button>
+              <Button variant="outlined" sx={{ minWidth: 200 }}>
+                <Link href="/11">
+                  <a>
+                    pineapple
+                  </a>
+                </Link>
+              </Button>
             </Menu>
           </MenuContainer>
         </main>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import throttle from "lodash/throttle";
-import { makeStyles, withStyles } from '@mui/styles'
 import AppBar from '@mui/material/AppBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Tabs from "@mui/material/Tabs";
@@ -13,38 +12,33 @@ import Box from '@mui/material/Box';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ProductTitle from './ProductTitle'
+import styled from '@emotion/styled'
+import theme from '../theme'
+import Link from 'next/link'
+
+const StyledTabs = styled(Tabs)`
+    .MuiTabs-indicator{
+        display: none;
+    }
+    .Mui-selected{
+        color: #111 !important;
+        background: ${theme.palette.secondary.light};
+    }
+`
+
+const StyledTab = styled(props => <Tab disableRipple {...props} />)`
+    height: 48px;
+    border-radius: 24px;
+    margin-left: 16px;
+    min-width: 140px;
+    font-size: 1.2rem;
+    color: #333;
+    background: ${theme.palette.primary.light};
+`
+
 
 const tabHeight = 69;
-const StyledTabs = withStyles({
-    indicator: {
-        display: 'none',
-    }
-})(props => <Tabs {...props} TabIndicatorProps={{ children: <div /> }} />);
 
-const StyledTab = withStyles(theme => ({
-
-}))(props => <Tab disableRipple {...props} />);
-
-const useStyles = makeStyles(theme => ({
-    container: {
-        // marginTop: 69,
-    },
-    tab: {
-        '&.MuiTab-root': {
-            height: 48,
-            borderRadius: 24,
-            marginLeft: 16,
-            minWidth: 140,
-            fontSize: '1.2rem',
-            color: '#333',
-            background: theme.palette.primary.light,
-            '&.Mui-selected': {
-                color: '#111',
-                background: theme.palette.secondary.light,
-            }
-        }
-    }
-}));
 
 /******* This is the scroll spy magic */
 /*
@@ -120,24 +114,11 @@ function ScrollSpyNavbar(props) {
     const itemsClientRef = useRef([]);
     const clickedRef = useRef(false);
     const unsetClickedRef = useRef(null);
-    const classes = useStyles();
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
-
-    // let itemsServer = tabsInScroll.map(tab => {
-    //     const hash = textToHash(tab.id);
-    //     return {
-    //         icon: tab.icon || "",
-    //         text: tab.text,
-    //         component: tab.component,
-    //         hash: hash,
-    //         node: document.getElementById(hash)
-    //     };
-    // });
 
     useEffect(() => {
         let temp = tabsInScroll.map(tab => {
             const hash = textToHash(tab.id);
-            console.log(document.getElementById(hash))
             return {
                 icon: tab.icon || "",
                 text: tab.text,
@@ -264,7 +245,11 @@ function ScrollSpyNavbar(props) {
                 <ElevationScroll {...props}>
                     <AppBar>
                         <Toolbar>
-                            <div>hello</div>
+                            <Link href="/">
+                                <a>
+                                    <div style={{ width: 60 }}>回首頁</div>
+                                </a>
+                            </Link>
                             <Box sx={{ display: { xs: 'none', md: 'flex' }, width: '100%', justifyContent: 'center' }}>
                                 <StyledTabs value={activeState ? activeState : itemsServer[0]?.hash}>
                                     {itemsServer.map(item2 => (
@@ -273,7 +258,6 @@ function ScrollSpyNavbar(props) {
                                             label={item2.text}
                                             onClick={handleClick(item2.hash)}
                                             value={item2.hash}
-                                            className={classes.tab}
                                         />
                                     ))}
                                 </StyledTabs>
@@ -296,7 +280,7 @@ function ScrollSpyNavbar(props) {
                 <Toolbar id="back-to-top-anchor" />
                 {renderMobileMenu}
             </Box>
-            <div className={classes.container}>
+            <div>
                 <ProductTitle title={title} />
             </div>
         </div >

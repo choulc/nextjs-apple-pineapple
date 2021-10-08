@@ -2,18 +2,17 @@ import React from 'react'
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { makeStyles } from '@mui/styles'
+import styled from '@emotion/styled'
+import theme from '../theme'
 
-const useStyles = makeStyles(theme => ({
-    title: {
-        color: theme.palette.secondary.dark
-    }
-}))
+const StyledTitle = styled.div`
+    text-align: center;
+    color: ${theme.palette.secondary.dark};
+`
 
 const ProductTitle = (props) => {
 
     const { title } = props
-    const classes = useStyles()
 
     return (
         <React.Fragment>
@@ -30,9 +29,9 @@ const ProductTitle = (props) => {
                         xs: 5, md: 0
                     }
                 }}>
-                    <div className={classes.title}>
+                    <StyledTitle>
                         {title}
-                    </div>
+                    </StyledTitle>
                 </Box>
             </Container>
         </React.Fragment>
