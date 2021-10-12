@@ -11,6 +11,8 @@ import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box'
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
 import styled from '@emotion/styled'
 import theme from '../theme'
 
@@ -50,20 +52,10 @@ cursor: pointer;
 const StyledIframeContainer = styled.div`
     border-radius: 0;
     background: #000;
-    width: 336px;
-    height: 189px;
-    @media (min-width: 600px ){
-        width: 576px;
-        height: 324px;
-    }
-    @media (min-width: 900px ){
-        width: 880px;
-        height: 495px;
-    }
-    @media (min-width: 1200px ){
-        width: 1200px;
-        height: 675px;
-    }
+    width:100vw;
+    max-width: calc(100vh/9*16); 
+    height: calc(100vw/16*9);
+    max-height: 100vh; 
 `
 
 const RecommendedVideo = (props) => {
@@ -160,6 +152,23 @@ const RecommendedVideo = (props) => {
                                             transform: 'translate(-50%, -50%)',
                                         }}>
                                             <StyledIframeContainer>
+                                                <IconButton
+                                                    aria-label="close"
+                                                    onClick={() => { setOpen(0) }}
+                                                    sx={{
+                                                        position: 'absolute',
+                                                        right: 8,
+                                                        top: 8,
+                                                        color: (theme) => theme.palette.grey[500],
+                                                        background: theme.palette.secondary.main,
+                                                        '&:hover': {
+                                                            color: theme.palette.secondary.contrastText,
+                                                            background: theme.palette.secondary.dark,
+                                                        }
+                                                    }}
+                                                >
+                                                    <CloseIcon />
+                                                </IconButton>
                                                 <iframe
                                                     width="100%"
                                                     height="100%"

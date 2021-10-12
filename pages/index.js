@@ -5,13 +5,18 @@ import Button from '@mui/material/Button';
 import styled from '@emotion/styled'
 import theme from '../src/theme'
 import Box from '@mui/material/Box'
+import listData from '../data/fruitListData.json'
 
 const Title = styled.h1`
     text-align: center;
     margin: 0;
-    padding: 5rem 0;
+    padding: 2.5rem 0;
     lineHeight: 1.15;
-    font-size: 4rem;
+    font-size: 2rem;
+    @media (min-width: 600px){
+      font-size: 4rem;
+      padding: 5rem 0;
+    }
 `;
 
 const MenuContainer = styled.div`
@@ -20,12 +25,16 @@ const MenuContainer = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     max-width: 800px;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    padding-bottom:20px;
+    @media (min-width: 600px){
+      padding-bottom: 80px;
+    }
 `;
 
 const Menu = styled.div`
-    margin: 1rem;
-    padding: 1.5rem;
+    margin: 0.5rem;
+    padding: 1rem;
     text-align: center;
     text-decoration: none;
     transition: color 0.15s ease, border-color 0.15s ease;
@@ -41,7 +50,9 @@ const Footer = styled.div`
     width: 100vw
 `;
 
-export default function Home() {
+export default function Home(props) {
+
+  const { list } = props
 
   return (
     <React.Fragment>
@@ -62,24 +73,28 @@ export default function Home() {
           </Title>
 
           <MenuContainer>
-            <Menu>
-              <Button variant="outlined" sx={{ minWidth: 200 }}>
-                <Link href="/1">
-                  <a>
-                    apple
-                  </a>
-                </Link>
-              </Button>
-            </Menu>
-            <Menu>
-              <Button variant="outlined" sx={{ minWidth: 200 }}>
-                <Link href="/11">
-                  <a>
-                    pineapple
-                  </a>
-                </Link>
-              </Button>
-            </Menu>
+            {list["apple"].map(apple => (
+              <Menu key={apple.id}>
+                <Button variant="outlined" sx={{ minWidth: '14ch' }} color="secondary">
+                  <Link href={`/${apple.id}`}>
+                    <a>
+                      {apple.name}
+                    </a>
+                  </Link>
+                </Button>
+              </Menu>
+            ))}
+            {list["pineapple"].map(pineapple => (
+              <Menu key={pineapple.id}>
+                <Button variant="outlined" sx={{ minWidth: '14ch' }}>
+                  <Link href={`/${pineapple.id}`}>
+                    <a>
+                      {pineapple.name}
+                    </a>
+                  </Link>
+                </Button>
+              </Menu>
+            ))}
           </MenuContainer>
         </main>
 
@@ -89,4 +104,13 @@ export default function Home() {
       </Box>
     </React.Fragment>
   )
+}
+
+export async function getStaticProps() {
+
+  return {
+    props: {
+      list: listData
+    }
+  }
 }

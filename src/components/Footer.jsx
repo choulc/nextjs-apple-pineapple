@@ -20,7 +20,7 @@ const Footer = () => {
     return (
         <React.Fragment>
             <StyledFooter>
-                <span>{`Copyright © ${new Date().getFullYear()} Choulc`}</span>
+                <span>{`${new Date().getFullYear()} choulc@github`}</span>
             </StyledFooter>
         </React.Fragment>
     );

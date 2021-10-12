@@ -23,11 +23,19 @@ const StyledCardContainer = styled.div`
  `
 
 const StyledCard = styled.div`
+    background:#eee;
+    border-radius:8px;
+    padding:8px;
+    min-height:250px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    :hover{
-        color: red;
+    cursor:default;
+    div{
+        margin-top:8px;
+    }
+    div img{
+        border-radius:4px;
     }
  `
 

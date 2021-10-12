@@ -2,48 +2,47 @@
     "pages": [
         {
             "path": "/1",
-            "title": "秋之香 本土蘋果「秋香」",
+            "title": "秋香蘋果在這裡",
             "productInfo": {
-                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
+                "spec": "每箱3公斤",
                 "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+                "validation": "通過農藥殘留檢驗報告",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢。"
             },
             "videoList": [
                 {
                     "id": 1,
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/yZC_OcuQCrA/0.jpg",
-                    "link": "https://www.youtube.com/embed/yZC_OcuQCrA"
+                    "image": "https://img.youtube.com/vi/UQitXPTWdwk/0.jpg",
+                    "link": "https://www.youtube.com/embed/UQitXPTWdwk"
                 },
                 {
                     "id": 2,
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/h8ZnyK65gJU/0.jpg",
-                    "link": "https://www.youtube.com/embed/h8ZnyK65gJU"
+                    "image": "https://img.youtube.com/vi/E35GX3kcxyM/0.jpg",
+                    "link": "https://www.youtube.com/embed/E35GX3kcxyM"
                 },
                 {
                     "id": 3,
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
-                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                    "image": "https://img.youtube.com/vi/YcI5tkwCf2U/0.jpg",
+                    "link": "https://www.youtube.com/embed/YcI5tkwCf2U"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -107,48 +106,47 @@
         },
         {
             "path": "/2",
-            "title": "青森甜蜜 津輕蘋果",
+            "title": "津輕蘋果是我是我",
             "productInfo": {
-                "spec": "3公斤[約15-40顆(每顆2.0兩以上)]",
+                "spec": "3公斤",
                 "origin": "台中和平",
-                "validation": "直接跟農夫買團隊親訪認可，輔以381項農藥殘留檢驗 報告。<直接跟農夫買>目前團隊針對較難無農藥管理之作物，如芒果、柿子、蓮霧、蘋果、釋迦、荔枝、水蜜桃等，其減藥認可標準為「農藥殘留低於四項，且每項低於衛福部公告標準之三分之一」，更多說明請參考我們的理念。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，風味最佳哦。",
-                "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
+                "validation": "無農藥殘留",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢。"
             },
             "videoList": [
                 {
                     "id": 1,
                     "title": "好吃好吃",
                     "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/yZC_OcuQCrA/0.jpg",
-                    "link": "https://www.youtube.com/embed/yZC_OcuQCrA"
+                    "image": "https://img.youtube.com/vi/r99bDlqh6gg/0.jpg",
+                    "link": "https://www.youtube.com/embed/r99bDlqh6gg"
                 },
                 {
                     "id": 2,
                     "title": "好吃好吃2",
                     "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/h8ZnyK65gJU/0.jpg",
-                    "link": "https://www.youtube.com/embed/h8ZnyK65gJU"
+                    "image": "https://img.youtube.com/vi/yYi2S3HLTYg/0.jpg",
+                    "link": "https://www.youtube.com/embed/yYi2S3HLTYg"
                 },
                 {
                     "id": 3,
                     "title": "好吃好吃3",
                     "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
-                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
+                    "image": "https://img.youtube.com/vi/_CEuM33GMhM/0.jpg",
+                    "link": "https://www.youtube.com/embed/_CEuM33GMhM"
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -212,13 +210,12 @@
         },
         {
             "path": "/3",
-            "title": "秋之青 本土青蘋果「金冠」",
+            "title": "金冠蘋果齁家",
             "productInfo": {
                 "spec": "3公斤",
                 "origin": "台中和平",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，此品種建議以紙包裹放冰箱後，於2周內享用，新鮮度與風味最佳!",
-                "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
+                "validation": "確認無農藥殘留",
+                "preservation": "請立即冷藏保鮮，於兩周內食用"
             },
             "videoList": [
                 {
@@ -244,16 +241,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -317,13 +314,12 @@
         },
         {
             "path": "/4",
-            "title": "秋之蜜 本土蘋果「青龍」",
+            "title": "青龍蘋果",
             "productInfo": {
                 "spec": "3公斤",
                 "origin": "台中和平",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。寶李阿姨家的蘋果皆採相同管理方式，故提供單一品種檢驗報告，若您不介意再購買。",
-                "preservation": "請立即冷藏保鮮，此品種建議在一周內享用完畢最美味喔。",
-                "meaning": "支持台灣地產蘋果，讓農友對減藥並邁向無農藥耕種更有信心。"
+                "validation": "農藥檢驗合格",
+                "preservation": "冷藏保鮮，建議在一周內享用完畢。"
             },
             "videoList": [
                 {
@@ -349,16 +345,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -422,13 +418,12 @@
         },
         {
             "path": "/5",
-            "title": "堅持草生 本土蜜蘋果「惠」",
+            "title": "惠蘋果真的好吃",
             "productInfo": {
-                "spec": "22顆裝[每顆約2.3~2.9兩] /20顆裝[每顆約3.0~3.7兩] /18顆裝 [每顆約3.8~4.4兩] /15顆裝 [每顆約4.5~5.2兩] /12顆裝 [每顆約5.3~6.0兩] /10顆裝 [每顆約6.1~6.8兩] /9顆裝[每顆約6.9~7.6兩] /8顆裝[每顆約7.7~8.5兩]",
+                "spec": "3公斤",
                 "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "「惠」蘋果放常溫、冷藏均可，但放冰箱可保存較長時間，建議收到後於一周內儘快吃完最美味。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+                "validation": "農藥檢驗合格",
+                "preservation": "常溫、冷藏均可，建議收到後於一周內儘快吃完。"
             },
             "videoList": [
                 {
@@ -454,16 +449,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -527,13 +522,12 @@
         },
         {
             "path": "/11",
-            "title": "秋之香 本土蘋果「秋香」",
+            "title": "金鑽鳳梨好吃好吃",
             "productInfo": {
-                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
-                "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+                "spec": "每箱3公斤",
+                "origin": "台南關廟",
+                "validation": "無農藥殘留。",
+                "preservation": "常溫或冷藏保鮮均可。"
             },
             "videoList": [
                 {
@@ -559,16 +553,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -632,13 +626,12 @@
         },
         {
             "path": "/12",
-            "title": "秋之香 本土蘋果「秋香」",
+            "title": "甜蜜蜜鳳梨真的好吃",
             "productInfo": {
-                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
-                "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+                "spec": "每箱3公斤",
+                "origin": "嘉義民雄",
+                "validation": "無農藥殘留",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢"
             },
             "videoList": [
                 {
@@ -664,16 +657,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -737,13 +730,12 @@
         },
         {
             "path": "/13",
-            "title": "秋之香 本土蘋果「秋香」",
+            "title": "牛奶鳳梨好吃呀",
             "productInfo": {
-                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
-                "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+                "spec": "每箱3公斤",
+                "origin": "嘉義民雄",
+                "validation": "農藥殘留檢驗報告合格",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢。"
             },
             "videoList": [
                 {
@@ -769,16 +761,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -842,13 +834,12 @@
         },
         {
             "path": "/14",
-            "title": "秋之香 本土蘋果「秋香」",
+            "title": "西瓜鳳梨好吃啊",
             "productInfo": {
-                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
-                "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+                "spec": "每箱3公斤",
+                "origin": "屏東內埔",
+                "validation": "無農藥殘留",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢。"
             },
             "videoList": [
                 {
@@ -874,16 +865,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },
@@ -947,13 +938,12 @@
         },
         {
             "path": "/15",
-            "title": "秋之香 本土蘋果「秋香」",
+            "title": "芒果鳳梨讚讚",
             "productInfo": {
-                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
-                "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
+                "spec": "每箱3公斤",
+                "origin": "嘉義民雄",
+                "validation": "農藥殘留檢驗報告合格。",
+                "preservation": "請立即冷藏保鮮，並於一周內享用完畢。"
             },
             "videoList": [
                 {
@@ -979,121 +969,16 @@
                 }
             ],
             "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
+                "https://dummyimage.com/1000x500/e89548/fff",
+                "https://dummyimage.com/1000x500/293475/fff",
+                "https://dummyimage.com/1000x500/239158/fff",
+                "https://dummyimage.com/1000x500/c4a52a/fff"
             ],
             "resourceList": [
                 {
                     "id": 1,
                     "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
-                    "description": "這是敘述一二三四五",
-                    "link": "www.google.com"
-                },
-                {
-                    "id": 2,
-                    "name": "資源2",
-                    "image": "https://dummyimage.com/250x350/293475/fff",
-                    "description": "這是敘述二二三四五",
-                    "link": "www.google.com"
-                },
-                {
-                    "id": 2,
-                    "name": "資源3",
-                    "image": "https://dummyimage.com/250x350/c4a52a/fff",
-                    "description": "這是敘述三二三四五",
-                    "link": "www.google.com"
-                }
-            ],
-            "linkList": [
-                {
-                    "id": 1,
-                    "name": "APP 1",
-                    "image": "https://dummyimage.com/70x70/293475/fff",
-                    "description": "這是敘述三二三四五",
-                    "link": "www.google.com",
-                    "buttonText": "立即前往"
-                },
-                {
-                    "id": 2,
-                    "name": "APP 2",
-                    "image": "https://dummyimage.com/70x70/293475/fff",
-                    "description": "這是敘述三二三四五",
-                    "link": "www.google.com",
-                    "buttonText": "立即前往"
-                },
-                {
-                    "id": 3,
-                    "name": "YouTube頻道",
-                    "image": "https://dummyimage.com/70x70/293475/fff",
-                    "description": "這是敘述三二三四五",
-                    "link": "www.google.com",
-                    "buttonText": "立即前往"
-                },
-                {
-                    "id": 4,
-                    "name": "FaceBook粉絲團",
-                    "image": "https://dummyimage.com/70x70/293475/fff",
-                    "description": "這是敘述三二三四五",
-                    "link": "www.google.com",
-                    "buttonText": "立即前往"
-                },
-                {
-                    "id": 5,
-                    "name": "Line小幫手",
-                    "image": "https://dummyimage.com/70x70/293475/fff",
-                    "description": "這是敘述三二三四五",
-                    "link": "www.google.com",
-                    "buttonText": "立即前往"
-                }
-            ]
-        },
-        {
-            "path": "/16",
-            "title": "秋之香 本土蘋果「秋香」",
-            "productInfo": {
-                "spec": "每箱3公斤（每顆2.5兩以上，不分大小混合出貨，約18~25顆）",
-                "origin": "台中梨山",
-                "validation": "直接跟農夫買團隊親訪認可，輔以農藥殘留檢驗報告 。",
-                "preservation": "請立即冷藏保鮮，並於一周內享用完畢，再繼續冷藏口感會變較鬆，同時也會退酸。",
-                "meaning": "支持台灣地產蘋果以草生與山坡共好! 並以顧及農友生計為前提，支持農友合理減藥"
-            },
-            "videoList": [
-                {
-                    "id": 1,
-                    "title": "好吃好吃",
-                    "description": "這是敘述一二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/yZC_OcuQCrA/0.jpg",
-                    "link": "https://www.youtube.com/embed/yZC_OcuQCrA"
-                },
-                {
-                    "id": 2,
-                    "title": "好吃好吃2",
-                    "description": "這是敘述二二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/h8ZnyK65gJU/0.jpg",
-                    "link": "https://www.youtube.com/embed/h8ZnyK65gJU"
-                },
-                {
-                    "id": 3,
-                    "title": "好吃好吃3",
-                    "description": "這是敘述三二三四五六七八九十",
-                    "image": "https://img.youtube.com/vi/Ukmkd6l7TFA/0.jpg",
-                    "link": "https://www.youtube.com/embed/Ukmkd6l7TFA"
-                }
-            ],
-            "imageList": [
-                "https://dummyimage.com/1000x600/b33db3/fff",
-                "https://dummyimage.com/1000x600/293475/fff",
-                "https://dummyimage.com/1000x600/239158/fff",
-                "https://dummyimage.com/1000x600/c4a52a/fff"
-            ],
-            "resourceList": [
-                {
-                    "id": 1,
-                    "name": "資源1",
-                    "image": "https://dummyimage.com/250x350/b33db3/fff",
+                    "image": "https://dummyimage.com/250x350/e89548/fff",
                     "description": "這是敘述一二三四五",
                     "link": "www.google.com"
                 },

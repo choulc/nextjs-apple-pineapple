@@ -9,8 +9,13 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import IconButton from '@mui/material/IconButton';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import Box from '@mui/material/Box';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
+import Drawer from '@mui/material/Drawer';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import InboxIcon from '@mui/icons-material/MoveToInbox';
+import MailIcon from '@mui/icons-material/Mail';
 import ProductTitle from './ProductTitle'
 import styled from '@emotion/styled'
 import theme from '../theme'
@@ -109,12 +114,11 @@ function ElevationScroll(props) {
 function ScrollSpyNavbar(props) {
     const { tabsInScroll, title } = props;
     const [activeState, setActiveState] = useState(null);
-    const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
     const [itemsServer, setItemsServer] = useState([])
     const itemsClientRef = useRef([]);
     const clickedRef = useRef(false);
     const unsetClickedRef = useRef(null);
-    const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
+    const [drawerState, setDrawerState] = useState(false)
 
     useEffect(() => {
         let temp = tabsInScroll.map(tab => {
@@ -177,7 +181,6 @@ function ScrollSpyNavbar(props) {
     useThrottledOnScroll(itemsServer.length > 0 ? findActiveIndex : null, 166);
 
     const handleClick = hash => () => {
-        setMobileMoreAnchorEl(null)
         // Used to disable findActiveIndex if the page scrolls due to a click
         clickedRef.current = true;
         clearTimeout(unsetClickedRef.current)
@@ -200,43 +203,30 @@ function ScrollSpyNavbar(props) {
 
     };
 
-    const handleMobileMenuClose = () => {
-        setMobileMoreAnchorEl(null);
-    };
 
-    const handleMobileMenuOpen = (event) => {
-        setMobileMoreAnchorEl(event.currentTarget);
-    };
-
-    const mobileMenuId = 'primary-search-account-menu-mobile';
-    const renderMobileMenu = (
-        <Menu
-            anchorEl={mobileMoreAnchorEl}
-            anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
-            id={mobileMenuId}
-            keepMounted
-            transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-            }}
-            open={isMobileMenuOpen}
-            onClose={handleMobileMenuClose}
+    const drawerList = (
+        <Box
+            sx={{ width: 180 }}
+            role="presentation"
+            onClick={() => setDrawerState(false)}
+            onKeyDown={() => setDrawerState(false)}
         >
-            {itemsServer.map(item2 => (
-                <MenuItem
-                    key={item2.hash}
-                    onClick={handleClick(item2.hash)}
-                >
-                    <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-                    </IconButton>
-                    <p>{item2.text}</p>
-                </MenuItem>
-            ))}
-        </Menu>
-    );
+            <List>
+                {itemsServer.map((text, index) => (
+                    <ListItem
+                        button
+                        key={text.hash}
+                        onClick={handleClick(text.hash)}
+                    >
+                        <ListItemIcon>
+                            {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                        </ListItemIcon>
+                        <ListItemText primary={text.text} />
+                    </ListItem>
+                ))}
+            </List>
+        </Box>
+    )
 
     return (
         <div >
@@ -264,11 +254,7 @@ function ScrollSpyNavbar(props) {
                             </Box>
                             <Box sx={{ display: { xs: 'flex', md: 'none' }, width: '100%', justifyContent: 'flex-end' }}>
                                 <IconButton
-                                    size="large"
-                                    aria-label="show more"
-                                    aria-controls={mobileMenuId}
-                                    aria-haspopup="true"
-                                    onClick={handleMobileMenuOpen}
+                                    onClick={() => setDrawerState(true)}
                                     color="inherit"
                                 >
                                     <MoreIcon />
@@ -278,7 +264,13 @@ function ScrollSpyNavbar(props) {
                     </AppBar>
                 </ElevationScroll>
                 <Toolbar id="back-to-top-anchor" />
-                {renderMobileMenu}
+                <Drawer
+                    anchor="right"
+                    open={drawerState}
+                    onClose={() => setDrawerState(false)}
+                >
+                    {drawerList}
+                </Drawer>
             </Box>
             <div>
                 <ProductTitle title={title} />

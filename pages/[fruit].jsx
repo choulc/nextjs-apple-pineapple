@@ -27,6 +27,7 @@ const Fruit = (props) => {
                     {
                         id: "introduction",
                         text: "產品介紹",
+
                     },
                     {
                         id: "video",
